@@ -46,3 +46,5 @@ dependencies {
     }
 }
 ```
+
+单元测试 以 _test结尾，方法需要以Test开头 参数(t *testing.T)
