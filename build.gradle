@@ -1,0 +1,13 @@
+plugins {
+    id 'com.github.blindpirate.gogradle' version '0.7.0' 
+}
+
+golang {
+    packagePath = 'helloxyy.com/gradle-demo'
+}
+
+dependencies {
+    golang {
+        build 'github.com/urfave/cli#cfb3883'
+    }
+}
