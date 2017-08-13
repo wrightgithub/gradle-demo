@@ -47,4 +47,6 @@ dependencies {
 }
 ```
 
-单元测试 以 _test结尾，方法需要以Test开头 参数(t *testing.T)
+# golang 语法注意点
+1. 单元测试 以 _test结尾，方法需要以Test开头 参数(t *testing.T)
+2. 方法大写开头表示public对外可见，小写开头private对外不可见
