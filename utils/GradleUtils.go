@@ -1,4 +1,4 @@
-package test
+package utils
 
 func SayHello() string {
 	return "hello"
